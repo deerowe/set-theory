@@ -11,6 +11,10 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
+
+    <script src="set.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,14 +32,28 @@
       </div>
     </nav>
     
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="pitch1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Dropdown
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="pitch1">
-        <li><a>C</a></li>
-      </ul>
+    <div class="btn-group" role="group">
+        <button class="btn btn-default dropdown-toggle" type="button" id="pitch1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          C
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="pitch1">
+          <li><a>C</a></li>
+          <li><a>C#/Db</a></li>
+          <li><a>D</a></li>
+          <li><a>D#/Eb</a></li>
+          <li><a>E</a></li>
+          <li><a>F</a></li>
+          <li><a>F#/Gb</a></li>
+          <li><a>G</a></li>
+          <li><a>G#/Ab</a></li>
+          <li><a>A</a></li>
+          <li><a>A#/Bb</a></li>
+          <li><a>B</a></li>
+
+        </ul>
+
+      <button class="btn btn-default glyphicon glyphicon-plus" type="button" id="addnote"></button>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
